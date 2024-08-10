@@ -1,0 +1,123 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f2f7;
+  color: #333;
+}
+
+header {
+  background-color: #d4edda;
+  color: #155724;
+  text-align: center;
+  padding: 1.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 0.75em;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 2em);
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.75em 1.5em;
+  margin: 0.5em;
+  background-color: #d4edda;
+  color: #155724;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c3e6cb;
+}
+
+#prosContainer,
+#consContainer {
+  margin: 1em 0;
+}
+
+#prosList,
+#consList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#prosList li,
+#consList li {
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background-color: #e2e3e5;
+  border: 1px solid #d6d8db;
+  border-radius: 5px;
+}
+
+.result-message {
+  font-size: 1.5em;
+  padding: 1em;
+  text-align: center;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+
+.result-message-green {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.result-message-red {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.result-message-blue {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container button {
+  margin: 1em 0;
+}
+
+ul {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+
+header h1,
+main h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+main p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  max-width: 400px;
+}
